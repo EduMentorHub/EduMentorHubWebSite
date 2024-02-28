@@ -1,0 +1,37 @@
+.ReadyToConnect{
+	background: #6F95B1;
+	margin: 5vw;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.innerBoxTitleAndPara{
+	background-color: #FCC69B;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.innerBoxTitleAndPara h1, .innerBoxNumberTitleAndPara h1{
+	padding: 0;
+	margin: 0;
+	color: #202E51;
+}
+
+.innerBoxNumberTitleAndPara h1{
+	font-size: 25px;
+}
+
+.innerBoxNumberTitleAndPara{
+	display: flex;
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+#index{
+	margin-right: 20px;
+	font-size: 30px;
+}
+

@@ -1,0 +1,13 @@
+.GuideInspireLead{
+	padding-top: 20px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#underLineText{
+	font-weight: bold;
+	text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.MeetAndGreet{
+	padding-top: 20px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+.meetAndGreetButton button{
+	margin-right: 15px;
+	height: 30px;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #8FBAB1;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+}
+
+.leftPartHome h1{
+	color: #202E51;
+}
+
+.rightPartHome img{
+	max-height: 400px;
+}
+
+.schoolLogo{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.logos{
+	max-height: 50px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,81 @@
+.Welcome{
+	background-color: #CFE4EF;
+	height: 80vh;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+.leftPartHome, .rightPartHome{
+	max-width: 50%;
+}
+
+.homeTitle {
+  color: #202E51; /* Default color for the whole text */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.firstPart {
+  color: #EC6E3E; /* Color for the first part of the text */
+  margin-right: 5px;
+}
+
+.secondPartTitle{
+	color: #EC6E3E;
+}
+
+.homePara{
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.homePara .firstPartPara{
+	font-weight: lighter;
+}
+
+.homeButton button{
+	margin-right: 15px;
+	height: 30px;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #2F659D;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+}
+
+#diffColorButton{
+	background-color: #EC6E3E;
+}
+
+@media only screen and (max-width: 850px){
+	.leftPartHome, .rightPartHome {
+	    max-width: 100%;
+	}
+	.rightPartHome {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+	}
+	.rightPartHome img{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		max-width: 90vw;
+	}
+	.homeTitle {
+	  font-size: 30px;
+	}
+	.homePara{
+		font-size: 15px;
+	}
+}

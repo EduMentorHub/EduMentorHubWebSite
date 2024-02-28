@@ -1,0 +1,100 @@
+.ApplyRoadmap{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	max-width: 100%;
+}
+
+.ApplyRoadmapTitle h1{
+	color: #202E51;
+}
+
+#boldText{
+	font-weight: 700;
+}
+
+.applyRoadMapStepsDiv{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+.applyRoadMapStepsDiv h1{
+	font-size: 25px;
+}
+
+.applyRoadMapSteps{
+	background-color: #8FBAB1;
+	padding: 10px;
+	margin: 10px;
+	max-width: 400px;
+	border-radius: 10px;
+
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.applyRoadMapSteps:nth-child(even) {
+  animation-name: slideFromLeft;
+}
+
+.applyRoadMapSteps:nth-child(odd) {
+  animation-name: slideFromRight;
+}
+
+.applyRoadMapSteps h1{
+	padding: 0;
+	margin: 0;
+}
+
+.fullSpace{
+	max-width: 100%;
+	flex: 10;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.additionalTips{
+	background-color: #CFE4EF;
+	padding: 30px;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	border-radius: 20px;
+}
+
+.additionalTips h1{
+	margin: 0;
+	padding: 0;
+}
+
+
+@media only screen and (max-width: 900px){
+	.applyRoadMapStepsDiv{
+		justify-content: center;
+	}
+	.applyRoadMapSteps{
+		max-width: 100%;
+	}
+}

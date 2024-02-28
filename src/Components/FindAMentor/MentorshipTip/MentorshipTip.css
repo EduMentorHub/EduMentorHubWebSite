@@ -1,0 +1,37 @@
+.MentorshipTip{
+	margin-top: 30px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-bottom: 40px;
+}
+
+.MentorshipTip h1{
+	margin: 0;
+	padding: 0;
+	color: #202E51;
+}
+
+.mentorshipStrategies{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.strategies{
+	max-width: 45%;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.strategies h1{
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 850px){
+	.strategies{
+		display: grid;
+		max-width: 100%;
+	}
+}

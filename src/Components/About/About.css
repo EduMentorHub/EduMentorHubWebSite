@@ -1,0 +1,44 @@
+.About{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.About h1{
+	margin: 0;
+	padding: 0;
+}
+
+.aboutUs{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.aboutUs, .aboutUsNextLeft, .aboutUsNextRight{
+	background-color: #EDD2CB;
+	padding: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+.aboutUsNext{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.aboutUsNextLeft{
+	flex: 1;
+	background-color: #CFE4EF;
+}
+
+.aboutUsNextRight{
+	flex: 1;
+	background-color: #E0F0EA;
+}
+
+@media only screen and (max-width: 850px){
+	.aboutUsNext{
+		display: grid;
+	}
+}
