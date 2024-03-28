@@ -1,6 +1,8 @@
 import './MeetAndGreet.css';
 import textData from '../../../textData'
 import logos from '../../logos/logos'
+import meetAndGreet from '../../Images/meetAndGreet.png'
+import { Link } from 'react-router-dom';
 
 function MeetAndGreet() {
   return (
@@ -9,7 +11,9 @@ function MeetAndGreet() {
         <h1>{textData.meetAndGreet}</h1>
         <p>{textData.meetAndGreetPara}</p>
         <div className="meetAndGreetButton">
-          <button>{textData.scheduleAMeet}</button>
+          <Link to="/find-a-mentor" style={{color:'black', textDecoration: 'none' }} >
+            <button>{textData.scheduleAMeet}</button>
+          </Link>
         </div>
         <div className="schoolLogo">
           {logos.map((logo, index) => (
@@ -19,7 +23,7 @@ function MeetAndGreet() {
       </div>
 
       <div className="rightPartHome">
-        <img src="https://cdni.iconscout.com/illustration/premium/thumb/indian-cleaning-man-with-namaste-hand-gesture-2656057-2209997.png" />
+        <img src={meetAndGreet} />
       </div>
     </div>
   );

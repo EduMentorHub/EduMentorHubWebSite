@@ -14,6 +14,12 @@
 	max-width: 50%;
 }
 
+.rightPartHome img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 .homeTitle {
   color: #202E51; /* Default color for the whole text */
   font-size: 40px;

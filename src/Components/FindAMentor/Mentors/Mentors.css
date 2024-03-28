@@ -72,6 +72,10 @@ input:focus {
 
 }
 
+.comingSoonBanner img{
+	max-width: 100%;
+}
+
 .schoolLogos img{
 	max-height: 400px;
 }

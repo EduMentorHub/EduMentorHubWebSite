@@ -1,5 +1,7 @@
 import './Welcome.css';
 import textData from '../../../textData'
+import welcome from '../../Images/welcome.png'
+import { Link } from 'react-router-dom';
 
 function Welcome() {
   return (
@@ -15,14 +17,18 @@ function Welcome() {
         </div>
 
         <div className="homeButton">
-          <button id="diffColorButton">{textData.findAMentor}</button>
-          <button>{textData.aboutUs}</button>
+          <Link to="/find-a-mentor" style={{color:'black', textDecoration: 'none' }} >
+            <button id="diffColorButton">{textData.findAMentor}</button>
+          </Link>
+          <Link to="/about" style={{color:'black', textDecoration: 'none' }}>
+            <button>{textData.aboutUs}</button>
+          </Link>
         </div>
 
       </div>
 
       <div className="rightPartHome">
-        <img src="https://en.pimg.jp/031/925/228/1/31925228.jpg" />
+        <img src={welcome} />
       </div>
     </div>
   );
